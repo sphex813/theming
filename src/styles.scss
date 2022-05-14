@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+@import "assets/mixnis";
+@import "assets/variables";
+@import "assets/themes";
+
+:root {
+  @include spread-map($day-theme);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  background-image: var(--background-img);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+}

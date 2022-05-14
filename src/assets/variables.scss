@@ -1,0 +1,35 @@
+@import "fonts";
+@import "colors";
+
+$day-theme: (
+  --primary-color: $blue,
+  --secondary-color: $light-blue,
+  --background-color: $white,
+  --background-url: "none",
+  --container-color: $light-gray,
+  --text-color: $black,
+  --button-text-color: $white,
+  --font-family: $arial,
+);
+
+$night-theme: (
+  --primary-color: $green,
+  --secondary-color: $light-green,
+  --background-color: $black,
+  --background-url: "none",
+  --container-color: $dark-gray,
+  --text-color: $white,
+  --button-text-color: $white,
+  --font-family: $arial,
+);
+
+$forest-theme: (
+  --primary-color: $purple,
+  --secondary-color: $dark-purple,
+  --background-color: $black,
+  --background-img: url("./img.png"),
+  --container-color: $white-transparent,
+  --text-color: $white,
+  --button-text-color: $white,
+  --font-family: $arial,
+);

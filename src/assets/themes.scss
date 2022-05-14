@@ -1,0 +1,12 @@
+@import 'variables';
+@import 'mixnis';
+
+:root.day-theme {
+  @include spread-map($day-theme);
+}
+:root.night-theme {
+  @include spread-map($night-theme);
+}
+:root.forest-theme {
+  @include spread-map($forest-theme);
+}
